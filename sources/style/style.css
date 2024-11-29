@@ -1,0 +1,84 @@
+* {
+    margin: 0
+}
+
+body {
+    min-width: 100%;
+    min-height: 100%;
+    background-color: rgb(236, 244, 243);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.header {
+    background-image: url("../images/bckgrnd.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 33%;
+    color: white;
+    min-height: 350px;
+    padding: 25px
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 5px 10%;
+
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+
+nav ul li {
+    padding: 10px;
+}
+
+nav button {
+    border: none;
+    background-color: rgb(42, 157, 143);
+    color: white;
+    padding: 5px 20px;
+}
+
+nav button:hover {
+    cursor: pointer;
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 75px 0;
+}
+
+.offering {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: white;
+}
+
+.offering * {
+    margin: 0 20%;
+    width: 60%;
+}
+
+.offering p {
+    margin: 20px 20%;
+    font-size: 15px;
+}
+
+.container img {
+    width: 100%;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: -100px 10%;
+}
